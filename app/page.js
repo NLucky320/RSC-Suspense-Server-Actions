@@ -6,6 +6,9 @@ export default function Home() {
     <main>
       <RSCDemo />
       <ClientDemo />
+      <ClientDemo>
+        <RSCDemo />
+      </ClientDemo>
 
     </main>
   );
